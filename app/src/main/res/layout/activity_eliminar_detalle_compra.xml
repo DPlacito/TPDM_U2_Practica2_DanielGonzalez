@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detalle_Compra.Eliminar_detalleCompra">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cabezera_Eliminar_DC"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edit_Buscar_Eliminar_DC"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Del Producto A Buscar"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/boton_Buscar_Eliminar_DC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    />
+    <TextView
+        android:id="@+id/text_ID_DC"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+    />
+    <TextView
+        android:id="@+id/text_Cantidad_DC"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+    />
+    <TextView
+        android:id="@+id/text_Precio_DC"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+    />
+
+    <Button
+        android:id="@+id/boton_Eliminar_Almacen_DC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.ittepic.tpdm_u2_practica2_danielgonzalez">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".compra.Eliminar_compra"></activity>
+        <activity android:name=".compra.Actualizar_compra" />
+        <activity android:name=".compra.Insertar_compra" />
+        <activity android:name=".compra.Eleccion_compra" />
+        <activity android:name=".empresa.Eliminar_empresa" />
+        <activity android:name=".empresa.Actualizar_empresa" />
+        <activity android:name=".empresa.Insertar_empresa" />
+        <activity android:name=".empresa.Eleccion_empresa" />
+        <activity android:name=".cliente.Eliminar_cliente" />
+        <activity android:name=".cliente.Insertar_cliente" />
+        <activity android:name=".cliente.Actualizar_cliente" />
+        <activity android:name=".cliente.Eleccion_cliente" />
+        <activity android:name=".detalle_Compra.Eliminar_detalleCompra" />
+        <activity android:name=".detalle_Compra.Actualizar_detalleCompra" />
+        <activity android:name=".detalle_Compra.Insertar_detalleCompra" />
+        <activity android:name=".detalle_Compra.Eleccion_detalle_compra" />
+        <activity android:name=".Actualizar_almacen" />
+        <activity android:name=".Eliminar_almacen" />
+        <activity android:name=".Insertar_almacen" />
+        <activity android:name=".Eleccion_almacen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

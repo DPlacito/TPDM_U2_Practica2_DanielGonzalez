@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cabezera_Principal"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <ImageButton
+        android:id="@+id/Almacen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/almacen" />
+
+    <ImageButton
+        android:id="@+id/cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/Almacen"
+        android:src="@drawable/cliente" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cliente"
+        android:layout_marginLeft="95dp"
+        android:text="Almacen"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cliente"
+        android:layout_marginLeft="240dp"
+        android:text="Cliente"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/detalecompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Almacen"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/compra" />
+
+    <ImageButton
+        android:id="@+id/compra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cliente"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/detallecompra" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalecompra"
+        android:layout_marginLeft="60dp"
+        android:text="Detalle Compra"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compra"
+        android:layout_marginLeft="230dp"
+        android:text="Compra"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <ImageButton
+        android:id="@+id/empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalecompra"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/factory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empresa"
+        android:layout_marginLeft="150dp"
+        android:text="Empresa"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empresa"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Elige A Que Tabla Entrar"
+        android:textColor="#000"
+        android:textSize="30dp" />
+</RelativeLayout>
